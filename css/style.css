@@ -1059,7 +1059,7 @@ body.lock {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("../../img/slider/slider-bg.png") center/contain no-repeat;
+	background: url("../img/slider/slider-bg.png") center/contain no-repeat;
 }
 .analytics__image img {
 	display: inline-block;
