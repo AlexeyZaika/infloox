@@ -166,6 +166,7 @@ body.lock {
 	}
 }
 .main__column-1 {
+	padding-right: 5px;
 	background: url("../img/main-bg-l.png") bottom left/50% no-repeat, url("../img/main-bg-r.png") bottom right/50% no-repeat;
 }
 @media (max-width: 700px) {
@@ -174,7 +175,11 @@ body.lock {
 		    -ms-flex-order: 2;
 		        order: 2;
 		background: none;
+		padding: 0;
 	}
+}
+.main__column-2 {
+	padding-left: 5px;
 }
 @media (max-width: 700px) {
 	.main__column-2 {
@@ -182,6 +187,7 @@ body.lock {
 		    -ms-flex-order: 1;
 		        order: 1;
 		margin: 0 0 15px 0;
+		padding: 0;
 	}
 }
 .main__block {
@@ -344,11 +350,11 @@ body.lock {
 	position: absolute;
 	width: 44px;
 	height: 33px;
-	left: 50%;
+	left: 78%;
 	top: -47px;
-	-webkit-transform: translate(100px, 0);
-	    -ms-transform: translate(100px, 0);
-	        transform: translate(100px, 0);
+	-webkit-transform: translate(0, 0);
+	    -ms-transform: translate(0, 0);
+	        transform: translate(0, 0);
 	background: url("../../img/icons/think-icon.svg") 0 0/100% no-repeat;
 }
 @media (min-width: 700.05px) {
@@ -394,18 +400,9 @@ body.lock {
 	}
 }
 .main__button img {
-	height: 60px;
-	width: auto;
-}
-@media (max-width: 991.98px) {
-	.main__button img {
-		height: 53px;
-	}
-}
-@media (max-width: 767.98px) {
-	.main__button img {
-		height: 45px;
-	}
+	display: inline-block;
+	margin: -55px 0;
+	width: 100%;
 }
 .main__button-g {
 	-webkit-box-pack: end;
@@ -1245,18 +1242,9 @@ body.lock {
 	transition: all 0.3s ease 0s;
 }
 .footer__button img {
-	height: 60px;
-	width: auto;
-}
-@media (max-width: 991.98px) {
-	.footer__button img {
-		height: 53px;
-	}
-}
-@media (max-width: 767.98px) {
-	.footer__button img {
-		height: 45px;
-	}
+	display: inline-block;
+	margin: -55px 0;
+	width: 100%;
 }
 @media (min-width: 991.98px) {
 	.footer__button:hover {
